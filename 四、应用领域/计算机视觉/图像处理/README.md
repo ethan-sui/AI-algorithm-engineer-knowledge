@@ -70,3 +70,11 @@
 &emsp;&emsp;也叫做投影变换，通常透视变换之后的图像不是平行四边形，平行被破坏，而仿射变换可以维持平行关系，仿射变换与透视变换也分别就是平面变换和空间变换，即二维和三维
 
 ### 5、霍夫变换
+&emsp;&emsp;可以检测直线
+
+&emsp;&emsp;①、先将图像进行二值化，然后Canny进行边缘检测；
+
+&emsp;&emsp;②、霍夫变化
+<div align=center><img width="500" height="400" src="https://github.com/ethan-sui/AI-algorithm-engineer-knowledge/blob/main/image/Hough00.jpg"/></div>
+即一组$(r,\theta)$便可确定一条直线，所以我们就是要找这些
+https://github.com/ethan-sui/AI-algorithm-engineer-knowledge/blob/main/image/Hough01.jpg
