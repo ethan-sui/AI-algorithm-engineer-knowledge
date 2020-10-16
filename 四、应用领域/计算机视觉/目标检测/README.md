@@ -40,3 +40,4 @@ $$F1-score=\frac{2Recall·Precision}{Recall+Precision}$$
 &emsp;&emsp;近些年的发展SmoothL1 loss → IoU loss(2016) → GIoU loss(2019) → DIoU loss(2020) → CIoU loss(2020)
 
 1、SmoothL1 loss
+<div align=center><img width="500" height="160" src="https://github.com/ethan-sui/AI-algorithm-engineer-knowledge/blob/main/image/smoothl1_loss.jpg"/></div>
