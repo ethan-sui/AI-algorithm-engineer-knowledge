@@ -75,6 +75,40 @@
 &emsp;&emsp;①、先将图像进行二值化，然后Canny进行边缘检测；
 
 &emsp;&emsp;②、霍夫变化
-<div align=center><img width="500" height="400" src="https://github.com/ethan-sui/AI-algorithm-engineer-knowledge/blob/main/image/Hough00.jpg"/></div>
-即一组$(r,\theta)$便可确定一条直线，所以我们就是要找这些
-https://github.com/ethan-sui/AI-algorithm-engineer-knowledge/blob/main/image/Hough01.jpg
+<div align=center><img width="500" height="200" src="https://github.com/ethan-sui/AI-algorithm-engineer-knowledge/blob/main/image/Hough00.jpg"/></div>
+&emsp;&emsp;即一组$(r,\theta)$便可确定一条直线，所以我们就是要找这些潜在直线对应的$(r,\theta)$，
+
+&emsp;&emsp;霍夫变换找直线的过程其实就是一个投票的过程，最后投票高的$(r,\theta)$便是所需直线，对图a进行遍历遇到背景就跳过，遇到边缘代入x,y到公式求得$r$，$\theta$进行投票
+<div align=center><img width="500" height="200" src="https://github.com/ethan-sui/AI-algorithm-engineer-knowledge/blob/main/image/Hough01.jpg"/></div>
+
+### 6、图像插值
+
+- 最近邻插值(与原图相关的点为1)
+
+&emsp;&emsp;这种方法会产生明显的锯齿，放大后的图像有很多严重的马赛克，缩小后的图像有很严重的失真
+
+- 双线性插值(与原图中相关的点为4)
+
+&emsp;&emsp;周围4个值的加权值
+
+- 双立方插值(与原图的相关的点为16)
+
+### 7、图像滤波
+&emsp;&emsp;图像滤波既可以在时域进行，也可以在频域进行，是一个邻域操作算子，常见的应用有去噪、图像增强、检测边缘、检测角点、模板匹配等
+
+- 均值滤波
+
+&emsp;&emsp;用其像素点周围像素的平均值代替原像素值，在滤除噪声的同时也会滤掉图像的边缘信息
+
+- 中值滤波
+
+&emsp;&emsp;用像素周围邻域像素集中的中值代替原像素，中值滤波去除椒盐噪声和斑块噪声时，效果非常明显
+
+- 高斯滤波
+
+&emsp;&emsp;同均值滤波一样，也是求平均，只不过是加权求平均，按高斯函数对邻域像素进行加权，认为离中心越近的像素影响越大，故而权重越大
+$f(x)=\frac{1}{\sigma \sqrt{2 \pi }}e^{-\frac{(x-\mu )^{2}}{2\sigma ^{2}}}$
+
+- 双边滤波
+
+对于图像的边缘信息能更好的保留，其原理为一个与空间距离相关的高斯核函数与一个灰度距离相关的高斯函数相乘
