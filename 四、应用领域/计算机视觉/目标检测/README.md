@@ -35,4 +35,8 @@ $$F1-score=\frac{2Recall·Precision}{Recall+Precision}$$
 &emsp;&emsp;5. 在标注训练集时，适量增大小目标的GT，从而变相增大目标
 
 &emsp;&emsp;6. Focal loss，通过降低正样本的权重来变相提高负样本的权重，这里负样本就是难检样本，即小目标
+
 ### 4、回归框损失
+&emsp;&emsp;近些年的发展SmoothL1 loss → IoU loss(2016) → GIoU loss(2019) → DIoU loss(2020) → CIoU loss(2020)
+
+1、SmoothL1 loss
