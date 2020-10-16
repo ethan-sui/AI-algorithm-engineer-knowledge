@@ -67,6 +67,7 @@ $$F1-score=\frac{2Recall·Precision}{Recall+Precision}$$
 5、$CIoU loss=1-CIoU=1-(IoU-\frac{Distance\_2}{Distance\_c}-\frac{v^{2}}{(1-IoU)+v})$
 
 &emsp;&emsp;CIoU比DIoU改进增加了一个影响因子，将预测框与目标框的长宽比都考虑进去了，其中v是衡量长宽比一致性的参数，定义为：
+
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;$v=\frac{4}{\pi ^{2}}(arctan\frac{w^{gt}}{h^{gt}}-arctan\frac{w^{p}}{h^{p}})^{2}$
 
 &emsp;&emsp;CIoU考虑了三个重要的几何因素：重叠面积、中心点距离、长宽比
