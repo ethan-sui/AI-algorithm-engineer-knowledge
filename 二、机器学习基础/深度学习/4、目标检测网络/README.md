@@ -1,4 +1,4 @@
 ## 目标检测网络
-### [R-CNN](R-CNN)
+### [R-CNN系类](R-CNN系列)
 ### [SSD](SSD)
-### [YOLO](YOLO)
+### [YOLO系列](YOLO系列)
