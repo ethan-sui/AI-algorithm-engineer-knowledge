@@ -3,7 +3,7 @@
 
 <font color=Fuchsia> ***持续更新...*** </font>
 
-![AI](https://github.com/ethan-sui/AI-algorithm-engineer-knowledge/blob/main/image/AI0.png)
+![AI](https://github.com/ethan-sui/AI-algorithm-engineer-knowledge/blob/main/image/AI.png)
 
 ## 一、工程基础
 
