@@ -6,7 +6,11 @@
 &emsp;&emsp;2、安装Anaconda
 
 &emsp;&emsp;3、创建虚拟环境
-
+```
+conda create -n tf   #创建环境
+conda activate tf    #进入环境
+conda deactivate tf  #退出环境
+```
 &emsp;&emsp;4、安装TensorFlow的GPU版
 ```
 conda install tensorflow-gpu
