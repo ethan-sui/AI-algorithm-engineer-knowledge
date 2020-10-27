@@ -8,7 +8,9 @@
 &emsp;&emsp;3、创建虚拟环境
 
 &emsp;&emsp;4、安装TensorFlow的GPU版
-
+```
+conda install tensorflow-gpu
+```
 &emsp;&emsp;5、检验是否安装成功
 
 &emsp;&emsp;终端进入python看能否导入tensorflow包成功，不报错即可
