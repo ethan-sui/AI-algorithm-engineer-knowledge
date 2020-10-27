@@ -45,8 +45,8 @@
 - Spark ML
 - LightGBM
 ### 2、深度学习框架
-- PyTorch
 - TensorFlow
+- PyTorch
 ### 3、特征工程
 - tsfresh
 - Featuretools
