@@ -10,3 +10,8 @@
 &emsp;&emsp;4、安装TensorFlow的GPU版
 
 &emsp;&emsp;5、检验是否安装成功
+
+终端进入python看能否导入tensorflow包成功，不报错即可
+```
+import tensorflow as tf
+```
