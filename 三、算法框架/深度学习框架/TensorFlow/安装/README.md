@@ -11,7 +11,7 @@
 
 &emsp;&emsp;5、检验是否安装成功
 
-终端进入python看能否导入tensorflow包成功，不报错即可
+&emsp;&emsp;终端进入python看能否导入tensorflow包成功，不报错即可
 ```
 import tensorflow as tf
 ```
