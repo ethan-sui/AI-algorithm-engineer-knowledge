@@ -1,6 +1,6 @@
 # 算法与数据结构
 ## 排序算法
-&emsp;&emsp;代码实现见sort_algorithm.ipynb文件
+&emsp;&emsp;[代码实现点我](sort_algorithm.ipynb)
 
 &emsp;&emsp;排序算法一览：
 <div align=center><img width="800" height="500" src="https://github.com/ethan-sui/AI-algorithm-engineer-knowledge/blob/main/image/Sorting_Algorithm_Table.png"/></div>
