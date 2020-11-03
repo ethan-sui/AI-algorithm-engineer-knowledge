@@ -1,29 +1,3 @@
-# C++
-## 1、基本数据类型
-- 整型
-- 字符型
-- 浮点型
-- 布尔型
-- 变量和常量
-- 算数运算符
-
-## 2、复合数据类型
-- 数组
-- 字符串
-- 结构体
-- 共同体
-- 枚举类型
-- 指针
-
-## 3、循环
-- for循环
-- while循环
-- do...while循环
-
-## 4、分支语句
-- if语句
-- switch语句
-
-## 5、函数
-
-## 6、类
+# 基本数据类型
+## 整型
+&emsp;&emsp;整型之间通过存储值时使用的内存量及有无符号来区分，从小到大为：bool, char, signed char, unsigned char, short, unsigned short, int, unsigned int, long, unsigned long, long long, unsigned long long
