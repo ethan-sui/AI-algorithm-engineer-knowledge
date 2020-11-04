@@ -1,3 +1,45 @@
 # 基本数据类型
+- 变量名命名规则
+
+&emsp;&emsp;1、在名称中只能用字母、数字和下划线
+
+&emsp;&emsp;2、名称的第一个字符不能是数字
+
+&emsp;&emsp;3、区分大小写
+
+&emsp;&emsp;4、不能将C++关键字用作名称
+
+&emsp;&emsp;5、以两个或一个下划线和大写字母打头的名称被保留给实现使用
+
+&emsp;&emsp;6、C++对于名称的长度没有限制，名称中所有的字符都有意义，但有些平台有长度限制
+
+- 如果想用两个或更多的单词组成一个名称，通常做法是用下划线将单词分开：my_number，或者从第二个单词开始将每个单词的第一个字母大写：myNumber
+
 ## 整型
-&emsp;&emsp;整型之间通过存储值时使用的内存量及有无符号来区分，从小到大为：bool, char, signed char, unsigned char, short, unsigned short, int, unsigned int, long, unsigned long, long long, unsigned long long
+- 整型之间通过存储值时使用的内存量及有无符号来区分，从小到大为：bool, char, signed char, unsigned char, short, unsigned short, int, unsigned int, long, unsigned long, long long, unsigned long long
+- sizeof运算符返回类型或变量的长度，单位为字节，对类型名(如int)使用时，应将名称放在括号中，但对变量名(如n_short)使用该运算符，括号是可选的
+- #define跟#include一样是一个预处理编译指令，如语句：#define Array 5，意思就是告诉预处理器，在程序中找到变量Array，并将所有的Array都替换为5
+- int被设置为对目标计算机而言最为“自然”的长度，意思是计算机处理起来效率最高的长度，如果没有非常有说服力的理由来选择其他类型，则应使用int
+- C++提供了控制符dec、hex、oct分别用于指示cout以十进制、十六进制和八进制格式显示整数
+- Unicode提供了一种表示各种字符集的解决方案-为大量字符和符号提供标准数值编码，ASCII码是Unicode的子集，Unicode可以表示109000多种符号和90多个手写符号，且还在不断发展中
+
+## 变量和常量
+- C++有一种更好的处理符号常量的方法，就是使用const关键字来修饰变量声明和初始化，如：const int Months = 12，常量被初始化后，其值就被固定了，编译器将不允许再修改该常量的值，关键字const就叫做限定符
+
+## 浮点型
+- 浮点型能表示小数值以及比整型能够表示的值大得多的值，3中浮点型分别是：float, double, long double
+- 浮点数的书写方式有两种，一种就是常用的小数点表示法，另一种就是科学计数法，即E表示法，比如3.45E4就是34500，也可以使用小写字母e，一样的，E之后的数也可以是正数，也可以是负数
+- cout通常会删除结尾的零，调用cout.setf()将覆盖这种行为
+- 在默认情况下，像8.24和2.4E8这样的浮点常量都属于double类型，如果希望常量为float类型，需使用f或F后缀，对于long double需使用L后缀
+
+## 算术运算符
+- C++使用运算符来提供对数字类型的算术运算：加、减、乘、除和求模，当两个运算符对同一个操作数进行操作时，C++的优先级和结合性规则可以确定先执行哪种操作
+- C++自动执行的类型转换：
+
+&emsp;&emsp;1、将一种算术类型的值赋给另一种算术类型的变量时，C++将对值进行转换
+
+&emsp;&emsp;2、表达式种包含不同的类型时，C++将对值进行转换
+
+&emsp;&emsp;3、将参数传递给函数时，C++将对值进行转换
+
+- auto是一个C语言关键字，可以将变量的类型设置成与初始值相同的类型，如：auto Array = 0.0; Array的类型即为double类型
