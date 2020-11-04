@@ -23,14 +23,23 @@
 - 方法论
 
 &emsp;&emsp;A、养成习惯，经常主动回顾一段时间学到的东西
+
 &emsp;&emsp;B、创造回忆的机会
+
 &emsp;&emsp;&emsp;&emsp;a、经常与别人讨论，或者讲给别人听
+
 &emsp;&emsp;&emsp;&emsp;b、整理笔记-温故而知新
+
 &emsp;&emsp;&emsp;&emsp;c、书写，写出自己的知识框架，并强化它
+
 &emsp;&emsp;C、设身处地“虚拟经历”别人经历过的事情
+
 &emsp;&emsp;D、抽象和推广，剔除细节，抓住本质
+
 &emsp;&emsp;E、联系/比较自己的经历
+
 &emsp;&emsp;&emsp;&emsp;a、样本大小很关键，多点样本
+
 &emsp;&emsp;b、警惕“沉默的证据”，事后偏见，自利归因
 
 -如果你想真正得到一些知识，最好过滤一下你的信息，否则你只是在别人的思考中得意着
