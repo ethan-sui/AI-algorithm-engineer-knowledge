@@ -1,4 +1,4 @@
-## 2、损失函数
+## 损失函数
 
 ### 1、0-1损失函数
 <div align=center><img width="900" height="100" src="https://github.com/ethan-sui/AI-algorithm-engineer-knowledge/blob/main/image/0-1_lossfunction.png"/></div>
