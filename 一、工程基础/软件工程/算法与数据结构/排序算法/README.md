@@ -1,4 +1,3 @@
-# 算法与数据结构
 ## 排序算法
 &emsp;&emsp;[代码实现点我](sort_algorithm.ipynb)
 
