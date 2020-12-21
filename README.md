@@ -70,4 +70,4 @@
 - [《关键对话：如何高效能沟通》](/五、杂货铺/1、书籍阅读/关键对话：如何高效能沟通)
 
 ### 2、论文阅读
-- [批标准化⭐Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](/五、杂货铺/2、论文阅读/)
+- [批标准化⭐Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](/五、杂货铺/2、论文阅读/批标准化 Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift.pdf)
