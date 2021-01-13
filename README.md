@@ -1,4 +1,5 @@
 # 内容已迁移至个人小站：[⭐http://www.ethansui.top/](http://www.ethansui.top/)
+# 后期更新也都在个人网站上更新
 # AI-algorithm-engineer-knowledge
 <font color=Fuchsia> ***努力成为一名合格有水平的AI算法工程师*** </font>
 
